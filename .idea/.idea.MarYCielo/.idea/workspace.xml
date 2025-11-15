@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b4b7771-903b-44c7-8241-66582b8e10aa" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MarYCielo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MarYCielo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
-    </list>
+    <list default="true" id="2b4b7771-903b-44c7-8241-66582b8e10aa" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,7 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1763217432481</updated>
       <workItem from="1763217434296" duration="207000" />
-      <workItem from="1763218897252" duration="5247000" />
+      <workItem from="1763218897252" duration="5597000" />
     </task>
     <servers />
   </component>
