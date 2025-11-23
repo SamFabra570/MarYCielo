@@ -7,18 +7,17 @@ using UnityEngine;
 public class Interactable : MonoBehaviour
 {
     public Outline outline;
-    
     private bool interactable = false;
+    public GameManager gameManager;
     
     // Start is called before the first frame update
     void Start()
     {
-        //outline = GetComponentInChildren<Outline>();
-
         if (outline != null)
             outline.enabled = false;
         else
             Debug.LogWarning("No Outline component found");
+        gameManager = GameManager.instance;
     }
 
     // Update is called once per frame
@@ -28,8 +27,20 @@ public class Interactable : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                //pick up object
+                GameObject parent = transform.parent.gameObject;
+                if (parent != null)
+                {
+                    parent.SetActive(false);
+                    gameManager.PickUpItem(parent.GetComponent<ObjectController>().id, parent);
+                }
+                else
+                {
+                    Debug.Log("This GameObject has no parent.");
+                }
+
+                
             }
+
         }
     }
 

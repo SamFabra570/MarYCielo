@@ -8,10 +8,10 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance = null;
     public int onHandItem; //Item that the player just picked up, -1 when nothing in hand
+    public GameObject onHandItemObject; //Item that the player just picked up, -1 when nothing in hand
     public int activeItem; //Item that is currently being searched
     public int lifes;
     public int[] inventory; //Inventory of the delivered items, 1 when the player delivers an item
-
     public bool isPaused = false;
     
     void Awake()
@@ -19,13 +19,13 @@ public class GameManager : MonoBehaviour
         if (instance == null)
         {
             onHandItem = -1;
-            activeItem = 0;
+            activeItem = 1;
             int i = 0;
-            //initialize with 0
+            //initialize with -1
             inventory = new int[20];
             while (i < 20)
             {
-                inventory[i] = 0;
+                inventory[i] = -1;
                 i++;
             }
             //initialize the players inventory
@@ -53,8 +53,9 @@ public class GameManager : MonoBehaviour
     }
 
     //The player picks up an item
-    public void PickUpItem(int item)
+    public void PickUpItem(int item, GameObject itemObject)
     {
+        onHandItemObject = itemObject;
         onHandItem = item;
     }
 
@@ -67,6 +68,7 @@ public class GameManager : MonoBehaviour
             onHandItem = -1;
         }
         else {
+            onHandItemObject.SetActive(true);
             lifes--;
         }
         
@@ -74,6 +76,18 @@ public class GameManager : MonoBehaviour
 
     //Depending of the state of each item, an ending is chosen. 
     public int EvaluateEnding()
+    {
+        int sum = 0;
+        int i = 0;
+        while (i < 8)
+        {
+            sum += inventory[i];
+            i++;
+        }
+        return sum;
+    }
+
+    public int Ending()
     {
         int sum = 0;
         int i = 0;
