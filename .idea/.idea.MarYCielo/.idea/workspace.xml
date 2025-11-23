@@ -6,7 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="2b4b7771-903b-44c7-8241-66582b8e10aa" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MarYCielo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MarYCielo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Cuchillo.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Cuchillo.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/mapa enrollado.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/mapa enrollado.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager_.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager_.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +22,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Cuchillo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Candle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager_.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interactable.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -97,6 +104,9 @@
       <workItem from="1763906628352" duration="193000" />
       <workItem from="1763906874987" duration="164000" />
       <workItem from="1763907125541" duration="8000" />
+      <workItem from="1763916020905" duration="123000" />
+      <workItem from="1763916237689" duration="1746000" />
+      <workItem from="1763918078326" duration="4396000" />
     </task>
     <servers />
   </component>
