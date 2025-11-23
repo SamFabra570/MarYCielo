@@ -13,6 +13,9 @@ public class GameManager : MonoBehaviour
     public int lifes;
     public int[] inventory; //Inventory of the delivered items, 1 when the player delivers an item
     public bool isPaused = false;
+
+    [SerializeField] private MonoBehaviour playerScript;
+    public GameObject tutorial;
     
     void Awake()
     {
@@ -36,11 +39,15 @@ public class GameManager : MonoBehaviour
             Destroy(instance);
         }
         DontDestroyOnLoad(instance);
+        
+        
     }
     // Start is called before the first frame update
     void Start()
     {
-        
+        playerScript.enabled = false;
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 
     // Update is called once per frame
@@ -106,7 +113,15 @@ public class GameManager : MonoBehaviour
 
     public void ExitGame()
     {
-        EditorApplication.ExitPlaymode();
+        //EditorApplication.ExitPlaymode();
         Application.Quit();
+    }
+
+    public void CloseTutorial()
+    {
+        tutorial.SetActive(false);
+        playerScript.enabled = true;
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 }

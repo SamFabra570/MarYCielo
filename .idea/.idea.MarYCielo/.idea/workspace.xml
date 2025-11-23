@@ -7,7 +7,9 @@
     <list default="true" id="2b4b7771-903b-44c7-8241-66582b8e10aa" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MarYCielo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MarYCielo/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interactable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Interactable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager_.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager_.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +105,7 @@
       <workItem from="1763916020905" duration="123000" />
       <workItem from="1763916237689" duration="1746000" />
       <workItem from="1763918078326" duration="4994000" />
-      <workItem from="1763930725233" duration="1491000" />
+      <workItem from="1763930725233" duration="2878000" />
     </task>
     <servers />
   </component>
